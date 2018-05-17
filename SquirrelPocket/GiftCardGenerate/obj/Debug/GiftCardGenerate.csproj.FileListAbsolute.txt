@@ -1,0 +1,15 @@
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\GiftCardGenerate\bin\Debug\AllTrustUs.SquirrelPocket.GiftCardGenerate.exe.config
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\GiftCardGenerate\bin\Debug\AllTrustUs.SquirrelPocket.GiftCardGenerate.exe
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\GiftCardGenerate\bin\Debug\AllTrustUs.SquirrelPocket.GiftCardGenerate.pdb
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\GiftCardGenerate\bin\Debug\MySql.Data.dll
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\GiftCardGenerate\bin\Debug\Newtonsoft.Json.dll
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\GiftCardGenerate\obj\Debug\AllTrustUs.SquirrelPocket.GiftCardGenerate.exe
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\GiftCardGenerate\obj\Debug\AllTrustUs.SquirrelPocket.GiftCardGenerate.pdb
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\GiftCardGenerate\obj\Debug\GiftCardGenerate.csprojResolveAssemblyReference.cache
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\GiftCardGenerate\bin\Debug\AllTrustUs.SquirrelPocket.GiftCardGenerate.exe.config
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\GiftCardGenerate\bin\Debug\AllTrustUs.SquirrelPocket.GiftCardGenerate.exe
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\GiftCardGenerate\bin\Debug\AllTrustUs.SquirrelPocket.GiftCardGenerate.pdb
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\GiftCardGenerate\bin\Debug\MySql.Data.dll
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\GiftCardGenerate\bin\Debug\Newtonsoft.Json.dll
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\GiftCardGenerate\obj\Debug\AllTrustUs.SquirrelPocket.GiftCardGenerate.exe
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\GiftCardGenerate\obj\Debug\AllTrustUs.SquirrelPocket.GiftCardGenerate.pdb

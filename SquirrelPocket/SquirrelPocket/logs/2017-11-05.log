@@ -1,0 +1,6 @@
+2017-11-05 22:05:42.224 INFO Check AuthorizationCheck Begin: =========2017/11/05 22:05:42
+2017-11-05 22:05:42.228 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fMyPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-11-05 22:07:59.617 INFO Check AuthorizationCheck Begin: =========2017/11/05 22:07:59
+2017-11-05 22:07:59.618 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fMyPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-11-05 22:08:49.772 INFO Check AuthorizationCheck Begin: =========2017/11/05 22:08:49
+2017-11-05 22:08:49.773 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fCartPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect

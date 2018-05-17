@@ -1,0 +1,8 @@
+D:\SoreadTrum\21.水果\Fruit\WxPayAPI\WxPayAPI\bin\WxPayAPI.dll.config
+D:\SoreadTrum\21.水果\Fruit\WxPayAPI\WxPayAPI\bin\WxPayAPI.dll
+D:\SoreadTrum\21.水果\Fruit\WxPayAPI\WxPayAPI\bin\WxPayAPI.pdb
+D:\SoreadTrum\21.水果\Fruit\WxPayAPI\WxPayAPI\bin\LitJson.dll
+D:\SoreadTrum\21.水果\Fruit\WxPayAPI\WxPayAPI\bin\ThoughtWorks.QRCode.dll
+D:\SoreadTrum\21.水果\Fruit\WxPayAPI\WxPayAPI\obj\Release\WxPayAPI.csprojResolveAssemblyReference.cache
+D:\SoreadTrum\21.水果\Fruit\WxPayAPI\WxPayAPI\obj\Release\WxPayAPI.dll
+D:\SoreadTrum\21.水果\Fruit\WxPayAPI\WxPayAPI\obj\Release\WxPayAPI.pdb

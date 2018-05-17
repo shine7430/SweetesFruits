@@ -1,0 +1,62 @@
+2017-11-02 17:07:50.918 INFO Check AuthorizationCheck Begin: =========2017/11/02 17:07:50
+2017-11-02 17:07:50.920 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fMyPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-11-02 23:46:09.384 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxab45dbde2ce2c914]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1403786202]]></mch_id><nonce_str><![CDATA[b109a82aa7f144efba6f9d8069ced5eb]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[okou5v6zJqXG1dSta-IjgTmxQ-dE]]></openid><out_trade_no><![CDATA[140378620220171102234608631]]></out_trade_no><sign><![CDATA[AB1C9D32D1F52A69C9F41436483BFFC7]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20171102235609]]></time_expire><time_start><![CDATA[20171102234609]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-02 23:46:09.975 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxab45dbde2ce2c914]]></appid>
+<mch_id><![CDATA[1403786202]]></mch_id>
+<nonce_str><![CDATA[I0LZojdEEB9b79qn]]></nonce_str>
+<sign><![CDATA[4D7AEF0C18A449FDA4E98D7067D27524]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20171102234611caa407346a0966884700]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-11-02 23:46:09.978 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2017-11-02 23:46:10.076 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"7aee8cf58066454cbfc49d6e8d0edfaf","package":"prepay_id=wx20171102234611caa407346a0966884700","paySign":"7086F06B796FDB1D2EEBC82296678458","signType":"MD5","timeStamp":"1509637570"}
+2017-11-02 23:46:10.077 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"7aee8cf58066454cbfc49d6e8d0edfaf","package":"prepay_id=wx20171102234611caa407346a0966884700","paySign":"7086F06B796FDB1D2EEBC82296678458","signType":"MD5","timeStamp":"1509637570"}
+2017-11-02 23:48:50.616 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxab45dbde2ce2c914]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1403786202]]></mch_id><nonce_str><![CDATA[f3a4e7a2ffaf4245a8f397cdb44c4d90]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[okou5v6zJqXG1dSta-IjgTmxQ-dE]]></openid><out_trade_no><![CDATA[140378620220171102234608631]]></out_trade_no><sign><![CDATA[378B8E21B808410A639DDB4722D6DBA3]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20171102235850]]></time_expire><time_start><![CDATA[20171102234850]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-02 23:48:50.617 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxab45dbde2ce2c914]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1403786202]]></mch_id><nonce_str><![CDATA[e0e032c091b644d591de841e16d53e6d]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[okou5v6zJqXG1dSta-IjgTmxQ-dE]]></openid><out_trade_no><![CDATA[140378620220171102234608631]]></out_trade_no><sign><![CDATA[2DCAC13DFD2CD70698651E65C8EBE41F]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20171102235850]]></time_expire><time_start><![CDATA[20171102234850]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-02 23:48:50.876 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxab45dbde2ce2c914]]></appid>
+<mch_id><![CDATA[1403786202]]></mch_id>
+<nonce_str><![CDATA[KWbF7PPd2E0rvYtN]]></nonce_str>
+<sign><![CDATA[8CCE56929BED0005C61E16E4C4F893BE]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20171102234852827d0c18b00539238440]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-11-02 23:48:50.878 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2017-11-02 23:48:50.890 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxab45dbde2ce2c914]]></appid>
+<mch_id><![CDATA[1403786202]]></mch_id>
+<nonce_str><![CDATA[uR8XGoRIOSLOffFH]]></nonce_str>
+<sign><![CDATA[E5A9DF73D9BE8C65B91BDF882FBA53A6]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20171102234852827d0c18b00214018451]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-11-02 23:48:50.890 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2017-11-02 23:48:50.893 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"c49b29c7a1344b1a86cc23ed7f94f543","package":"prepay_id=wx20171102234852827d0c18b00539238440","paySign":"52A0D13287B5E1FD27E015939000FCC6","signType":"MD5","timeStamp":"1509637731"}
+2017-11-02 23:48:50.894 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"c49b29c7a1344b1a86cc23ed7f94f543","package":"prepay_id=wx20171102234852827d0c18b00539238440","paySign":"52A0D13287B5E1FD27E015939000FCC6","signType":"MD5","timeStamp":"1509637731"}
+2017-11-02 23:48:50.894 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"9bbe20a83d1644e49656c2659b747517","package":"prepay_id=wx20171102234852827d0c18b00214018451","paySign":"1142EADF8E1E5C0DCA892058E4C2F8A3","signType":"MD5","timeStamp":"1509637731"}
+2017-11-02 23:48:50.895 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"9bbe20a83d1644e49656c2659b747517","package":"prepay_id=wx20171102234852827d0c18b00214018451","paySign":"1142EADF8E1E5C0DCA892058E4C2F8A3","signType":"MD5","timeStamp":"1509637731"}
+2017-11-02 23:50:41.409 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxab45dbde2ce2c914]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1403786202]]></mch_id><nonce_str><![CDATA[f91db8dcc9e94c478ec448d073c82e0b]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[okou5v6zJqXG1dSta-IjgTmxQ-dE]]></openid><out_trade_no><![CDATA[140378620220171102234608631]]></out_trade_no><sign><![CDATA[5D6010AB04C413E3952D445AD1D3CA02]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20171103000041]]></time_expire><time_start><![CDATA[20171102235041]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-11-02 23:50:41.584 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxab45dbde2ce2c914]]></appid>
+<mch_id><![CDATA[1403786202]]></mch_id>
+<nonce_str><![CDATA[RlzDEuJAnkvGoDye]]></nonce_str>
+<sign><![CDATA[490333DBE75340D407FCB6C564610A32]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201711022350422f50a3a3250321933276]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-11-02 23:50:41.585 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2017-11-02 23:50:41.585 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"753e10d9de904f1e8772bab4c5b6dee1","package":"prepay_id=wx201711022350422f50a3a3250321933276","paySign":"8899B688EAD591A8D9116B78974D862C","signType":"MD5","timeStamp":"1509637842"}
+2017-11-02 23:50:41.586 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"753e10d9de904f1e8772bab4c5b6dee1","package":"prepay_id=wx201711022350422f50a3a3250321933276","paySign":"8899B688EAD591A8D9116B78974D862C","signType":"MD5","timeStamp":"1509637842"}
+2017-11-02 23:51:32.534 INFO Check AuthorizationCheck Begin: =========2017/11/02 23:51:32
+2017-11-02 23:51:32.535 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fMyPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-11-02 23:55:42.932 INFO Check AuthorizationCheck Begin: =========2017/11/02 23:55:42
+2017-11-02 23:55:42.935 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fCommunityOrderPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect

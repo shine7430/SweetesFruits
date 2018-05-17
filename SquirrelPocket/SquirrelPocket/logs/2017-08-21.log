@@ -1,0 +1,14 @@
+2017-08-21 10:18:33.832 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxab45dbde2ce2c914]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1403786202]]></mch_id><nonce_str><![CDATA[86d04e59bb364cb4af13aef2db01ba2c]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[okou5v6zJqXG1dSta-IjgTmxQ-dE]]></openid><out_trade_no><![CDATA[14037862022017081613420043]]></out_trade_no><sign><![CDATA[A96C338B507460F84BB7832223AE9975]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20170821102833]]></time_expire><time_start><![CDATA[20170821101833]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-08-21 10:18:37.768 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxab45dbde2ce2c914]]></appid>
+<mch_id><![CDATA[1403786202]]></mch_id>
+<nonce_str><![CDATA[tBpAL5IQClbrlkYg]]></nonce_str>
+<sign><![CDATA[E2E0C717A8F5708078D3606B3A3C3ED9]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20170821101846daa9173ff80485580871]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-08-21 10:18:37.786 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2017-08-21 10:18:37.807 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"2cc57089954640fdad75991ed49b938e","package":"prepay_id=wx20170821101846daa9173ff80485580871","paySign":"F2C03C089466EA4132981DA7E5A53BB6","signType":"MD5","timeStamp":"1503281918"}
+2017-08-21 10:18:37.809 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"2cc57089954640fdad75991ed49b938e","package":"prepay_id=wx20170821101846daa9173ff80485580871","paySign":"F2C03C089466EA4132981DA7E5A53BB6","signType":"MD5","timeStamp":"1503281918"}

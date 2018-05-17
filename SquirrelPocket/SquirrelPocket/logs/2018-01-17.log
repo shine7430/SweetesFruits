@@ -1,0 +1,52 @@
+2018-01-17 09:51:47.197 ERROR ASP.global_asax: Application_Error:/Handlers/GiftCardHandler.ashx?Action=giftcardtake&openid=okou5v6zJqXG1dSta-IjgTmxQ-dE&mobile=15221336036</br>未将对象引用设置到对象的实例。;AllTrustUs.SquirrelPocket;   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 61
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-01-17 09:52:25.211 ERROR ASP.global_asax: Application_Error:/Handlers/GiftCardHandler.ashx?Action=giftcardtake&openid=okou5v6zJqXG1dSta-IjgTmxQ-dE&mobile=15221336036&name=shine</br>发生一个或多个错误。;mscorlib;   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 YZOpenSDK.DefaultYZClient.SendRequest(String url, String method, IDictionary`2 apiParams, List`1 files)
+   在 YZOpenSDK.DefaultYZClient.Invoke(String apiName, String version, String method, IDictionary`2 apiParams, List`1 files)
+   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 73
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-01-17 09:52:58.833 ERROR ASP.global_asax: Application_Error:/Handlers/GiftCardHandler.ashx?Action=giftcardtake&openid=okou5v6zJqXG1dSta-IjgTmxQ-dE&mobile=15221336036&name=shine</br>发生一个或多个错误。;mscorlib;   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 YZOpenSDK.DefaultYZClient.SendRequest(String url, String method, IDictionary`2 apiParams, List`1 files)
+   在 YZOpenSDK.DefaultYZClient.Invoke(String apiName, String version, String method, IDictionary`2 apiParams, List`1 files)
+   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 73
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-01-17 10:17:03.836 ERROR ASP.global_asax: Application_Error:/Handlers/GiftCardHandler.ashx</br>未将对象引用设置到对象的实例。;AllTrustUs.SquirrelPocket;   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 61
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-01-17 10:17:54.960 ERROR ASP.global_asax: Application_Error:/Handlers/GiftCardHandler.ashx</br>未将对象引用设置到对象的实例。;AllTrustUs.SquirrelPocket;   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 61
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-01-17 12:45:54.108 ERROR HttpService: System.Net.WebException: 未能解析此远程名称: 'open.youzan.com'
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 AllTrustUs.WXPayAPILib.HttpService.Get(String url) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\WXPayAPILib\lib\HttpService.cs:行号 160
+2018-01-17 12:46:08.399 ERROR ASP.global_asax: Application_Error:/Handlers/GiftCardHandler.ashx?Action=giftcardtake&openid=okou5v6zJqXG1dSta-IjgTmxQ-dE&mobile=15221336036&name=shine</br>System.Net.WebException: 未能解析此远程名称: 'open.youzan.com'
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 AllTrustUs.WXPayAPILib.HttpService.Get(String url) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\WXPayAPILib\lib\HttpService.cs:行号 160
+
+https://open.youzan.com/oauth/token?client_id=2e6259a7d6e91d6875&client_secret=7dc62b1091aff300d4bf6153e7e84b84&grant_type=silent&kdt_id=40161714;AllTrustUs.SquirrelPocket;   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.AccessTokenRequest(String queryString) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 150
+   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.get_CurToken() 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 129
+   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 32
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-01-17 12:46:46.374 ERROR HttpService: System.Net.WebException: 未能解析此远程名称: 'open.youzan.com'
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 AllTrustUs.WXPayAPILib.HttpService.Get(String url) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\WXPayAPILib\lib\HttpService.cs:行号 160
+2018-01-17 12:46:58.984 ERROR ASP.global_asax: Application_Error:/Handlers/GiftCardHandler.ashx?Action=giftcardtake&openid=okou5v6zJqXG1dSta-IjgTmxQ-dE&mobile=15221336036&name=shine</br>System.Net.WebException: 未能解析此远程名称: 'open.youzan.com'
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 AllTrustUs.WXPayAPILib.HttpService.Get(String url) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\WXPayAPILib\lib\HttpService.cs:行号 160
+
+https://open.youzan.com/oauth/token?client_id=2e6259a7d6e91d6875&client_secret=7dc62b1091aff300d4bf6153e7e84b84&grant_type=silent&kdt_id=40161714;AllTrustUs.SquirrelPocket;   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.AccessTokenRequest(String queryString) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 150
+   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.get_CurToken() 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 129
+   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 32
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-01-17 12:54:33.316 ERROR ASP.global_asax: Application_Error:/Handlers/GiftCardHandler.ashx?Action=giftcardtake&openid=okou5v6zJqXG1dSta-IjgTmxQ-dE&mobile=15221336036&name=shine</br>未将对象引用设置到对象的实例。;AllTrustUs.SquirrelPocket;   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 52
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

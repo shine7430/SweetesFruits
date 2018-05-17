@@ -1,0 +1,15 @@
+2016-10-17 16:35:15.023 ERROR ASP.global_asax: Application_Error:/Handlers/ManagementHandler.ashx</br>Column 'startdate' does not belong to table Table.;System.Data;   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at AllTrustUs.SquirrelPocket.Handlers.ManagementHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\ManagementHandler.ashx.cs:line 175
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-17 16:35:52.871 ERROR ASP.global_asax: Application_Error:/Handlers/ManagementHandler.ashx</br>Column 'startdate' does not belong to table Table.;System.Data;   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at AllTrustUs.SquirrelPocket.Handlers.ManagementHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\ManagementHandler.ashx.cs:line 175
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-17 16:37:25.764 ERROR ASP.global_asax: Application_Error:/Handlers/ManagementHandler.ashx</br>Column 'startdate' does not belong to table Table.;System.Data;   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at AllTrustUs.SquirrelPocket.Handlers.ManagementHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\ManagementHandler.ashx.cs:line 175
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

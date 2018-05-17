@@ -1,0 +1,14 @@
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\Deepleo.Weixin.SDK\bin\Release\Deepleo.Weixin.SDK.dll
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\Deepleo.Weixin.SDK\bin\Release\Deepleo.Weixin.SDK.pdb
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\Deepleo.Weixin.SDK\bin\Release\System.Net.Http.dll
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\Deepleo.Weixin.SDK\bin\Release\System.Net.Http.xml
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\Deepleo.Weixin.SDK\obj\Release\Deepleo.Weixin.SDK.dll
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\Deepleo.Weixin.SDK\obj\Release\Deepleo.Weixin.SDK.pdb
+D:\Spreadtrum\21.水果\Fruit\SquirrelPocket\Deepleo.Weixin.SDK\obj\Release\Deepleo.Weixin.SDK.csprojResolveAssemblyReference.cache
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\Deepleo.Weixin.SDK\bin\Release\Deepleo.Weixin.SDK.dll
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\Deepleo.Weixin.SDK\bin\Release\Deepleo.Weixin.SDK.pdb
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\Deepleo.Weixin.SDK\bin\Release\System.Net.Http.dll
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\Deepleo.Weixin.SDK\bin\Release\System.Net.Http.xml
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\Deepleo.Weixin.SDK\obj\Release\Deepleo.Weixin.SDK.csprojResolveAssemblyReference.cache
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\Deepleo.Weixin.SDK\obj\Release\Deepleo.Weixin.SDK.dll
+D:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\Deepleo.Weixin.SDK\obj\Release\Deepleo.Weixin.SDK.pdb

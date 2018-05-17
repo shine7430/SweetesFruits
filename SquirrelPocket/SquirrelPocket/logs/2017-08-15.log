@@ -1,0 +1,246 @@
+2017-08-15 10:12:10.787 INFO Check AuthorizationCheck Begin: =========2017/08/15 10:12:10
+2017-08-15 10:12:10.796 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fSquirrelOrderPageGiftBox.aspx%3fftype%3dbox&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 10:14:02.731 INFO Check AuthorizationCheck Begin: =========2017/08/15 10:14:02
+2017-08-15 10:14:02.732 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fSquirrelOrderPageGiftBox.aspx%3fftype%3dbox&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 10:15:04.645 INFO Check AuthorizationCheck Begin: =========2017/08/15 10:15:04
+2017-08-15 10:15:04.646 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fSquirrelOrderPageGiftBox.aspx%3fftype%3dbox&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 10:15:20.192 INFO Check AuthorizationCheck Begin: =========2017/08/15 10:15:20
+2017-08-15 10:15:20.192 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fSquirrelOrderPageGiftBox.aspx%3fftype%3dbox&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 10:16:00.391 INFO Check AuthorizationCheck Begin: =========2017/08/15 10:16:00
+2017-08-15 10:16:00.392 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fSquirrelOrderPageGiftBox.aspx%3fftype%3dbox&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 14:29:14.440 INFO Check AuthorizationCheck Begin: =========2017/08/15 14:29:14
+2017-08-15 14:29:14.441 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fSquirrelOrderPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 14:30:42.349 ERROR ASP.global_asax: Application_Error:/Handlers/OrderHandler.ashx</br>Access denied for user 'root'@'localhost' (using password: YES);MySql.Data;   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, String cmdText, MySqlParameter[] cmdParms) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 23
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 90
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 103
+   在 AllTrustUs.SquirrelPocket.Handlers.OrderHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\OrderHandler.ashx.cs:行号 58
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 14:32:07.114 ERROR ASP.global_asax: Application_Error:/Handlers/OrderHandler.ashx</br>Access denied for user 'root'@'localhost' (using password: YES);MySql.Data;   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, String cmdText, MySqlParameter[] cmdParms) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 23
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 90
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 103
+   在 AllTrustUs.SquirrelPocket.Handlers.OrderHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\OrderHandler.ashx.cs:行号 58
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 14:56:38.061 ERROR ASP.global_asax: Application_Error:/Handlers/OrderHandler.ashx</br>Access denied for user 'root'@'localhost' (using password: YES);MySql.Data;   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, String cmdText, MySqlParameter[] cmdParms) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 23
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 90
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 103
+   在 AllTrustUs.SquirrelPocket.Handlers.OrderHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\OrderHandler.ashx.cs:行号 58
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 14:58:46.147 ERROR ASP.global_asax: Application_Error:/Handlers/OrderHandler.ashx</br>Access denied for user 'root'@'localhost' (using password: YES);MySql.Data;   在 MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate411()
+   在 MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.PrepareCommand(MySqlCommand cmd, MySqlConnection conn, String cmdText, MySqlParameter[] cmdParms) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 23
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 90
+   在 AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:行号 103
+   在 AllTrustUs.SquirrelPocket.Handlers.OrderHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\OrderHandler.ashx.cs:行号 58
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:03:22.971 INFO AllTrustUs.SquirrelPocket.Utility.EmailHelper: 操作已超时。   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 AllTrustUs.SquirrelPocket.Utility.EmailHelper.SendMail(String subject, String body) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\EmailHelper.cs:行号 55
+2017-08-15 15:03:57.077 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxab45dbde2ce2c914]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1403786202]]></mch_id><nonce_str><![CDATA[c19be37acdc240d983ffe8513f86a3ee]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[okou5v6zJqXG1dSta-IjgTmxQ-dE]]></openid><out_trade_no><![CDATA[14037862022017081515011757]]></out_trade_no><sign><![CDATA[F6D2E9E3F7BB1F23C18ABDB67D449592]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20170815151357]]></time_expire><time_start><![CDATA[20170815150357]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-08-15 15:03:57.684 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxab45dbde2ce2c914]]></appid>
+<mch_id><![CDATA[1403786202]]></mch_id>
+<nonce_str><![CDATA[Zza6lb0ei9IcBzcz]]></nonce_str>
+<sign><![CDATA[F19F7B956FAC2C7B3219B2A87E1D2D2D]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20170815150358690ba259540861777906]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-08-15 15:03:57.686 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2017-08-15 15:03:57.699 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"a852f69d1c744673a4c087f51421a722","package":"prepay_id=wx20170815150358690ba259540861777906","paySign":"211851ABB10BF1739E80498789A836B8","signType":"MD5","timeStamp":"1502780638"}
+2017-08-15 15:03:57.700 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"a852f69d1c744673a4c087f51421a722","package":"prepay_id=wx20170815150358690ba259540861777906","paySign":"211851ABB10BF1739E80498789A836B8","signType":"MD5","timeStamp":"1502780638"}
+2017-08-15 15:03:57.737 INFO Check AuthorizationCheck Begin: =========2017/08/15 15:03:57
+2017-08-15 15:03:57.738 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fWXPay.aspx%3fopenid%3dokou5v6zJqXG1dSta-IjgTmxQ-dE%26total_fee%3d7500%26order_id%3d125&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 15:17:39.838 ERROR ASP.global_asax: Application_Error:/Order/WXPay.aspx?openid=okou5v6zJqXG1dSta-IjgTmxQ-dE&total_fee=29800&order_id=126</br>引发类型为“System.Web.HttpUnhandledException”的异常。;System.Web;   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.order_wxpay_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\18c01429\16094009\App_Web_ra14ud1w.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:17:55.503 ERROR ASP.global_asax: Application_Error:/Order/WXPay.aspx?openid=okou5v6zJqXG1dSta-IjgTmxQ-dE&total_fee=29800&order_id=126</br>引发类型为“System.Web.HttpUnhandledException”的异常。;System.Web;   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.order_wxpay_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\18c01429\16094009\App_Web_ra14ud1w.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:19:57.874 ERROR ASP.global_asax: Application_Error:/Order/WXPay.aspx?openid=okou5v6zJqXG1dSta-IjgTmxQ-dE&total_fee=29800&order_id=126</br>引发类型为“System.Web.HttpUnhandledException”的异常。;System.Web;   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.order_wxpay_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\18c01429\16094009\App_Web_ra14ud1w.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:27:37.305 ERROR ASP.global_asax: Application_Error:/Order/WXPay.aspx?openid=okou5v6zJqXG1dSta-IjgTmxQ-dE&total_fee=29800&order_id=127</br>引发类型为“System.Web.HttpUnhandledException”的异常。;System.Web;   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.order_wxpay_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\18c01429\16094009\App_Web_wo3lqx3c.7.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:27:50.040 ERROR ASP.global_asax: Application_Error:/order/SquirrelOrderDetailPage.aspx?order_id=127</br>引发类型为“System.Web.HttpUnhandledException”的异常。;System.Web;   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.order_squirrelorderdetailpage_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\18c01429\16094009\App_Web_wo3lqx3c.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:36:42.410 ERROR ASP.global_asax: Application_Error:/order/SquirrelOrderDetailPage.aspx?order_id=127</br>引发类型为“System.Web.HttpUnhandledException”的异常。;System.Web;   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.order_squirrelorderdetailpage_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\18c01429\16094009\App_Web_u4lzmpyv.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:39:24.142 ERROR ASP.global_asax: Application_Error:/order/SquirrelOrderDetailPage.aspx?order_id=127</br>引发类型为“System.Web.HttpUnhandledException”的异常。;System.Web;   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.order_squirrelorderdetailpage_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\18c01429\16094009\App_Web_u4lzmpyv.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:40:51.242 ERROR ASP.global_asax: Application_Error:/order/SquirrelOrderDetailPage.aspx?order_id=127</br>引发类型为“System.Web.HttpUnhandledException”的异常。;System.Web;   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.order_squirrelorderdetailpage_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\18c01429\16094009\App_Web_u4lzmpyv.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:41:54.181 ERROR ASP.global_asax: Application_Error:/order/SquirrelOrderDetailPage.aspx?order_id=127</br>引发类型为“System.Web.HttpUnhandledException”的异常。;System.Web;   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.order_squirrelorderdetailpage_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\18c01429\16094009\App_Web_u4lzmpyv.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:41:54.704 ERROR ASP.global_asax: Application_Error:/order/SquirrelOrderDetailPage.aspx?order_id=127</br>引发类型为“System.Web.HttpUnhandledException”的异常。;System.Web;   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.order_squirrelorderdetailpage_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\18c01429\16094009\App_Web_u4lzmpyv.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-08-15 15:44:52.764 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxab45dbde2ce2c914]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1403786202]]></mch_id><nonce_str><![CDATA[1363fce09cd74e05976a2dce6e013723]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[okou5v6zJqXG1dSta-IjgTmxQ-dE]]></openid><out_trade_no><![CDATA[140378620220170815152708668]]></out_trade_no><sign><![CDATA[0BBD9A1A2B262C1BDD141F5F4B70DED5]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20170815155452]]></time_expire><time_start><![CDATA[20170815154452]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-08-15 15:44:52.957 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxab45dbde2ce2c914]]></appid>
+<mch_id><![CDATA[1403786202]]></mch_id>
+<nonce_str><![CDATA[IgR2sKUca7e9QQxU]]></nonce_str>
+<sign><![CDATA[587FBA75E3D7276E9C486899DF88AFBB]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201708151544531772ce69950708517958]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-08-15 15:44:52.959 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2017-08-15 15:44:52.971 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"8404fdb4e4a1454f873f102d826e8be5","package":"prepay_id=wx201708151544531772ce69950708517958","paySign":"56BC697515F3C119051E2780D2007CF5","signType":"MD5","timeStamp":"1502783093"}
+2017-08-15 15:44:52.972 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"8404fdb4e4a1454f873f102d826e8be5","package":"prepay_id=wx201708151544531772ce69950708517958","paySign":"56BC697515F3C119051E2780D2007CF5","signType":"MD5","timeStamp":"1502783093"}
+2017-08-15 15:44:53.009 INFO Check AuthorizationCheck Begin: =========2017/08/15 15:44:53
+2017-08-15 15:44:53.009 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fWXPay.aspx%3fopenid%3dokou5v6zJqXG1dSta-IjgTmxQ-dE%26total_fee%3d29800%26order_id%3d127&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 17:46:44.068 INFO Check AuthorizationCheck Begin: =========2017/08/15 17:46:44
+2017-08-15 17:46:44.078 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fWXPay.aspx%3fopenid%3dokou5v6zJqXG1dSta-IjgTmxQ-dE%26total_fee%3d15000%26order_id%3d128&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 17:48:24.878 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxab45dbde2ce2c914]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1403786202]]></mch_id><nonce_str><![CDATA[931ebead915749e1afe6d72d78b114e0]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[okou5v6zJqXG1dSta-IjgTmxQ-dE]]></openid><out_trade_no><![CDATA[140378620220170815174823491]]></out_trade_no><sign><![CDATA[14767C206F4EA0E375B472C82BCBA47C]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20170815175824]]></time_expire><time_start><![CDATA[20170815174824]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-08-15 17:48:25.110 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxab45dbde2ce2c914]]></appid>
+<mch_id><![CDATA[1403786202]]></mch_id>
+<nonce_str><![CDATA[BRbQHJXp82BhwFHJ]]></nonce_str>
+<sign><![CDATA[B42398CF1F4C5770189BE4A0F562AC86]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx201708151748259a3f50b8030283774054]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-08-15 17:48:25.114 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2017-08-15 17:48:25.127 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"53f58a879c064653bb54c6ecd017dc68","package":"prepay_id=wx201708151748259a3f50b8030283774054","paySign":"4A800E03A830D4E2F78A8CF4D6777102","signType":"MD5","timeStamp":"1502790505"}
+2017-08-15 17:48:25.130 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"53f58a879c064653bb54c6ecd017dc68","package":"prepay_id=wx201708151748259a3f50b8030283774054","paySign":"4A800E03A830D4E2F78A8CF4D6777102","signType":"MD5","timeStamp":"1502790505"}
+2017-08-15 17:48:25.201 INFO Check AuthorizationCheck Begin: =========2017/08/15 17:48:25
+2017-08-15 17:48:25.203 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fWXPay.aspx%3fopenid%3dokou5v6zJqXG1dSta-IjgTmxQ-dE%26total_fee%3d22500%26order_id%3d129&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 17:48:50.179 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxab45dbde2ce2c914]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1403786202]]></mch_id><nonce_str><![CDATA[55a13e404fd747b5a237fe87c672693a]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[okou5v6zJqXG1dSta-IjgTmxQ-dE]]></openid><out_trade_no><![CDATA[140378620220170815174823491]]></out_trade_no><sign><![CDATA[679AD1500CA90E41DBE38363527A9EEA]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20170815175850]]></time_expire><time_start><![CDATA[20170815174850]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-08-15 17:48:50.353 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxab45dbde2ce2c914]]></appid>
+<mch_id><![CDATA[1403786202]]></mch_id>
+<nonce_str><![CDATA[010CY3AWFIure6mj]]></nonce_str>
+<sign><![CDATA[223D94997669763D4FA96FD3769E169A]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20170815174850160460112c0905098830]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-08-15 17:48:50.356 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2017-08-15 17:48:50.358 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"05d297143f8d41ca99c5a33e82b33ccd","package":"prepay_id=wx20170815174850160460112c0905098830","paySign":"730E5C79E7A72F7122B52EDD86D279F8","signType":"MD5","timeStamp":"1502790530"}
+2017-08-15 17:48:50.366 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"05d297143f8d41ca99c5a33e82b33ccd","package":"prepay_id=wx20170815174850160460112c0905098830","paySign":"730E5C79E7A72F7122B52EDD86D279F8","signType":"MD5","timeStamp":"1502790530"}
+2017-08-15 17:48:50.379 INFO Check AuthorizationCheck Begin: =========2017/08/15 17:48:50
+2017-08-15 17:48:50.381 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fWXPay.aspx%3fopenid%3dokou5v6zJqXG1dSta-IjgTmxQ-dE%26total_fee%3d22500%26order_id%3d129&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2017-08-15 18:33:42.914 INFO AllTrustUs.SquirrelPocket.Utility.EmailHelper: 操作已超时。   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 AllTrustUs.SquirrelPocket.Utility.EmailHelper.SendMail(String subject, String body) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\EmailHelper.cs:行号 55
+2017-08-15 18:54:56.007 INFO AllTrustUs.SquirrelPocket.Utility.EmailHelper: 操作已超时。   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 AllTrustUs.SquirrelPocket.Utility.EmailHelper.SendMail(String subject, String body) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\EmailHelper.cs:行号 55
+2017-08-15 18:55:05.568 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxab45dbde2ce2c914]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1403786202]]></mch_id><nonce_str><![CDATA[e5593d3a6f8a4879a72e46a4bd6b2ce9]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[okou5v6zJqXG1dSta-IjgTmxQ-dE]]></openid><out_trade_no><![CDATA[1403786202201708151853154]]></out_trade_no><sign><![CDATA[AA9D6483F92F6364BC545D19FB84B256]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20170815190505]]></time_expire><time_start><![CDATA[20170815185505]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2017-08-15 18:55:05.775 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxab45dbde2ce2c914]]></appid>
+<mch_id><![CDATA[1403786202]]></mch_id>
+<nonce_str><![CDATA[x16mBw5aqjB3jzMC]]></nonce_str>
+<sign><![CDATA[FA56505B23ABC1E2D61C9CFE30DB0DC0]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx2017081518550640458630050807318591]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2017-08-15 18:55:05.779 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2017-08-15 18:55:05.793 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"dfa6361c97b548bdb7aa96d0c13510d0","package":"prepay_id=wx2017081518550640458630050807318591","paySign":"C3660C6667CC1E68E52C20F557C3E064","signType":"MD5","timeStamp":"1502794506"}
+2017-08-15 18:55:05.797 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxab45dbde2ce2c914","nonceStr":"dfa6361c97b548bdb7aa96d0c13510d0","package":"prepay_id=wx2017081518550640458630050807318591","paySign":"C3660C6667CC1E68E52C20F557C3E064","signType":"MD5","timeStamp":"1502794506"}
+2017-08-15 18:55:05.845 INFO Check AuthorizationCheck Begin: =========2017/08/15 18:55:05
+2017-08-15 18:55:05.849 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fWXPay.aspx%3fopenid%3dokou5v6zJqXG1dSta-IjgTmxQ-dE%26total_fee%3d39800%26order_id%3d131&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect

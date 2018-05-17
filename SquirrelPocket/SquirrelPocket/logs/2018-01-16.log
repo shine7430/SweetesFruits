@@ -1,0 +1,3 @@
+2018-01-16 19:47:07.241 ERROR ASP.global_asax: Application_Error:/Handlers/GiftCardHandler.ashx</br>未将对象引用设置到对象的实例。;AllTrustUs.SquirrelPocket;   在 AllTrustUs.SquirrelPocket.Handlers.GiftCardHandler.ProcessRequest(HttpContext context) 位置 d:\Spreadtrum\21.水果\SweetesFruits\SquirrelPocket\SquirrelPocket\Handlers\GiftCardHandler.ashx.cs:行号 26
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

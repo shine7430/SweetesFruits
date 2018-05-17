@@ -1,0 +1,126 @@
+2016-10-09 12:09:16.777 ERROR ASP.global_asax: Application_Error:Field 'id' doesn't have a default value;MySql.Data;   at MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.OrderHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\OrderHandler.ashx.cs:line 79
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-09 12:13:42.607 ERROR ASP.global_asax: Application_Error:Field 'id' doesn't have a default value;MySql.Data;   at MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.OrderHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\OrderHandler.ashx.cs:line 79
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-09 12:15:07.582 ERROR ASP.global_asax: Application_Error:句柄无效。
+;mscorlib;   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.Threading.EventWaitHandle.Reset()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.OrderHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\OrderHandler.ashx.cs:line 79
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-09 12:15:55.860 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxd278dc9e4031a12d]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1230942402]]></mch_id><nonce_str><![CDATA[dfd4cecd5c1140b5bd64f9dee873f96b]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[oERB-uKnfV2TFNFoPa1JtkwPzogY]]></openid><out_trade_no><![CDATA[123094240220161009121554621]]></out_trade_no><sign><![CDATA[1272DFE0504A16498074319D0B6D875E]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20161009122555]]></time_expire><time_start><![CDATA[20161009121555]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2016-10-09 12:15:59.534 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxd278dc9e4031a12d]]></appid>
+<mch_id><![CDATA[1230942402]]></mch_id>
+<nonce_str><![CDATA[oFzvoo2tuIKEaVMd]]></nonce_str>
+<sign><![CDATA[430D799734F4217EC222DF71BC40F493]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20161009121601a65b96c4f40492792929]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2016-10-09 12:15:59.539 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2016-10-09 12:15:59.563 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"4fdcca21890a439fa135445c6854fd72","package":"prepay_id=wx20161009121601a65b96c4f40492792929","paySign":"0491D132CB72CC77DBA340E47210A98E","signType":"MD5","timeStamp":"1475986560"}
+2016-10-09 12:15:59.564 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"4fdcca21890a439fa135445c6854fd72","package":"prepay_id=wx20161009121601a65b96c4f40492792929","paySign":"0491D132CB72CC77DBA340E47210A98E","signType":"MD5","timeStamp":"1475986560"}
+2016-10-09 12:15:59.742 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-09 12:18:28.652 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxd278dc9e4031a12d]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1230942402]]></mch_id><nonce_str><![CDATA[28471aee15be45358d44ac0142340af3]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[oERB-uKnfV2TFNFoPa1JtkwPzogY]]></openid><out_trade_no><![CDATA[123094240220161009121824161]]></out_trade_no><sign><![CDATA[7A05AD9616C2EBCD8FB0F5A0603F6B9F]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20161009122828]]></time_expire><time_start><![CDATA[20161009121828]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2016-10-09 12:18:29.186 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxd278dc9e4031a12d]]></appid>
+<mch_id><![CDATA[1230942402]]></mch_id>
+<nonce_str><![CDATA[OaEO33g52bIAgF91]]></nonce_str>
+<sign><![CDATA[806533D657779D64EDBA7DAF63802C6C]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx2016100912183089506c69470253059889]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2016-10-09 12:18:29.190 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2016-10-09 12:18:29.204 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"968100d774e942dd82273efcd62f6b23","package":"prepay_id=wx2016100912183089506c69470253059889","paySign":"802D6BBE8ACDCA62FF923CAE9AEEC0A9","signType":"MD5","timeStamp":"1475986709"}
+2016-10-09 12:18:29.205 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"968100d774e942dd82273efcd62f6b23","package":"prepay_id=wx2016100912183089506c69470253059889","paySign":"802D6BBE8ACDCA62FF923CAE9AEEC0A9","signType":"MD5","timeStamp":"1475986709"}
+2016-10-09 12:18:29.237 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-09 12:19:23.644 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxd278dc9e4031a12d]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1230942402]]></mch_id><nonce_str><![CDATA[30022a91d6e443379e4b84d19b6f2a5d]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[oERB-uKnfV2TFNFoPa1JtkwPzogY]]></openid><out_trade_no><![CDATA[123094240220161009121921115]]></out_trade_no><sign><![CDATA[A1333EBA718AD3617B2E6B627B6A03D4]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20161009122923]]></time_expire><time_start><![CDATA[20161009121923]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2016-10-09 12:19:23.904 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxd278dc9e4031a12d]]></appid>
+<mch_id><![CDATA[1230942402]]></mch_id>
+<nonce_str><![CDATA[A5jL6AJEot4BZGTl]]></nonce_str>
+<sign><![CDATA[C966E3B1B2ED4B7A71C201763DC667F5]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20161009121925eb5d3c30720284697608]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2016-10-09 12:19:23.905 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2016-10-09 12:19:23.906 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"38873728f9ab493e97a4793c469d8de2","package":"prepay_id=wx20161009121925eb5d3c30720284697608","paySign":"D4E6AFAA72A2423F61C8269212D33CCE","signType":"MD5","timeStamp":"1475986764"}
+2016-10-09 12:19:23.907 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"38873728f9ab493e97a4793c469d8de2","package":"prepay_id=wx20161009121925eb5d3c30720284697608","paySign":"D4E6AFAA72A2423F61C8269212D33CCE","signType":"MD5","timeStamp":"1475986764"}
+2016-10-09 12:19:23.938 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-09 14:47:00.332 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-09 14:50:48.730 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-09 15:29:52.635 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-09 17:00:35.617 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxd278dc9e4031a12d]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1230942402]]></mch_id><nonce_str><![CDATA[1bb2d24db22243b58bb2361f338188a1]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[oERB-uKnfV2TFNFoPa1JtkwPzogY]]></openid><out_trade_no><![CDATA[123094240220161009170033369]]></out_trade_no><sign><![CDATA[EC5A913DC80AB9A4CD984318302ED9D1]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20161009171035]]></time_expire><time_start><![CDATA[20161009170035]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2016-10-09 17:00:36.576 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxd278dc9e4031a12d]]></appid>
+<mch_id><![CDATA[1230942402]]></mch_id>
+<nonce_str><![CDATA[f5CF8Ouj2b9YHzap]]></nonce_str>
+<sign><![CDATA[212235A90D55170556F01CD04CA5B627]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20161009170038b9df023e620701574027]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2016-10-09 17:00:36.579 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2016-10-09 17:00:36.596 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"e4dab71849fd4497b58382b954b88c50","package":"prepay_id=wx20161009170038b9df023e620701574027","paySign":"75107086A20AE27FBC2C2DDD56C53E5E","signType":"MD5","timeStamp":"1476003637"}
+2016-10-09 17:00:36.597 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"e4dab71849fd4497b58382b954b88c50","package":"prepay_id=wx20161009170038b9df023e620701574027","paySign":"75107086A20AE27FBC2C2DDD56C53E5E","signType":"MD5","timeStamp":"1476003637"}
+2016-10-09 17:00:36.634 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-09 17:07:22.722 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-09 17:07:38.083 ERROR ASP.global_asax: Application_Error:Could not load type 'AllTrustUs.SquirrelPocket.Order.SquirrelOrder'.;System.Web;   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-09 17:45:57.826 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect

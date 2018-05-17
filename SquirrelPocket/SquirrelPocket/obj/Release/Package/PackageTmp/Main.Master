@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="AllTrustUs.SquirrelPocket.Main" %>
+
+<%@ Register Src="~/UCBase/Head.ascx" TagPrefix="uc1" TagName="Head" %>
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>松鼠兜兜果切</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery.min.js"></script>
+
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="/css/style.css?v=1.0.0" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/bootstrap-overwrite.css?v=1.0.0" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+
+    <style>
+        .header-top {
+            border-bottom: inherit !important;
+        }
+
+        div.picker ul.image_picker_selector li {
+            width: 25%;
+        }
+
+        .thumbnail {
+            margin-bottom: 10px;
+        }
+
+            .thumbnail > img, .thumbnail a > img {
+                border-radius: 20px;
+            }
+
+        ul.thumbnails.image_picker_selector li {
+            margin: inherit !important;
+        }
+
+            ul.thumbnails.image_picker_selector li .thumbnail.selected {
+                font-size: 12px;
+                color: #FFFFFF;
+            }
+
+            ul.thumbnails.image_picker_selector li .thumbnail {
+                font-size: 12px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+                ul.thumbnails.image_picker_selector li .thumbnail.selected {
+                    background: #65a032 !important;
+                }
+
+        #signupForm label.error {
+            margin-left: 10px;
+            width: auto;
+            display: inline;
+        }
+
+
+        #signupForm .form-control.error,
+        #signupForm .form-control.error:active {
+            border: 1px solid #f39800;
+        }
+
+        .PayButton {
+            width: 50%;
+            height: 40px;
+            background-color: #00CD00;
+            border: 0px #FE6714 solid;
+            cursor: pointer;
+            color: white;
+            font-size: 16px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .form-control-static {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .list-group {
+            float: left;
+            width: 100%;
+            border-bottom: 1px solid #faebcc;
+        }
+
+        .list-laber {
+            float: left;
+            width: 30%;
+        }
+
+        .list-content {
+            float: left;
+            width: 70%;
+        }
+
+        .container.midcontent {
+            margin-bottom: 60px !important;
+            margin-top: 5px !important;
+        }
+    </style>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/layer/layer.js"></script>
+
+    <!-- Custom Theme files -->
+
+    <script src="/js/Common.js"></script>
+
+
+    <!--validation-->
+    <script src="/js/jquery-validation/jquery.validate.min.js"></script>
+    <script src="/js/jquery-validation/localization/messages_zh.js"></script>
+
+
+    <%--Jquery ui--%>
+    <link href="/JQueryControl/JqueryUI/jquery-ui.css" rel="stylesheet" />
+    <script src="/JQueryControl/JqueryUI/jquery-ui.js"></script>
+
+    <%--Jquery img picker--%>
+    <script src="/JQueryControl/imgPicker/js/image-picker.min.js"></script>
+    <script src="/JQueryControl/imgPicker/js/jquery.masonry.min.js"></script>
+    <script src="/JQueryControl/imgPicker/js/prettify.js"></script>
+    <link href="/JQueryControl/imgPicker/css/image-picker.css" rel="stylesheet" />
+    <script>
+        $(function () {
+
+            if (navigator.userAgent.match(/MicroMessenger/i)) {
+                var weixinShareLogo = 'http://www.trustus.cn/images/300/logo/446994937272846516.png';
+
+                $('body').prepend('<div style=" overflow:hidden; width:0px; height:0; margin:0 auto; position:absolute; top:-800px;"><img src="' + weixinShareLogo + '"></div>')
+
+            };
+
+        })
+    </script>
+</head>
+
+<body>
+    <div id="mainbody">
+    </div>
+    <%--    <div style="
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    background: #FFFFFF;
+    z-index: 1;
+    box-sizing: border-box;">
+        <asp:ContentPlaceHolder ID="head" runat="server">
+            <uc1:Head runat="server" ID="Head1" />
+        </asp:ContentPlaceHolder>
+    </div>--%>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="bottonMenu" runat="server">
+            <div id="main" class="wrapper">
+                <div id="__bottombar" class="bottombar">
+                    <a id="mHome" data-tab="index" class="checked" href="/Home.aspx">
+                        <div class="item">
+                            <div class="cover ele1"></div>
+                            <span>首页</span>
+                        </div>
+                    </a>
+                    <a id="mOrder"  data-tab="feeds" href="/Order/CommunityOrderPage.aspx">
+                        <div class="item">
+                            <div class="cover ele2"></div>
+                            <span>社区预定</span>
+                        </div>
+                    </a>
+                    <a id="mMyOrder"  data-tab="photos" href="/Order/CartPage.aspx">
+                        <div class="item">
+                            <div class="cover ele4"></div>
+                            <span>我的订单</span>
+                        </div>
+                    </a>
+                    <a id="mMy"  data-tab="me" href="/Order/MyPage.aspx">
+                        <div class="item">
+                            <div class="cover ele5"></div>
+                            <span>我的</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </asp:ContentPlaceHolder>
+    </div>
+
+</body>
+</html>

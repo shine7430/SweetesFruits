@@ -1,0 +1,133 @@
+2016-10-28 10:24:05.406 ERROR ASP.global_asax: Application_Error:/Handlers/ManagementHandler.ashx</br>Unknown column 'tof.fruitNum' in 'field list';MySql.Data;   at MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.ManagementHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\ManagementHandler.ashx.cs:line 103
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-28 10:24:39.113 ERROR ASP.global_asax: Application_Error:/Handlers/ManagementHandler.ashx</br>Unknown column 'tof.fruitNum' in 'field list';MySql.Data;   at MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.ManagementHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\ManagementHandler.ashx.cs:line 157
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-28 10:25:12.333 ERROR ASP.global_asax: Application_Error:/Handlers/ManagementHandler.ashx</br>Unknown column 'tof.fruitNum' in 'field list';MySql.Data;   at MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.ManagementHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\ManagementHandler.ashx.cs:line 103
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-28 10:25:57.647 ERROR ASP.global_asax: Application_Error:/Handlers/ManagementHandler.ashx</br>Unknown column 'tof.fruitNum' in 'field list';MySql.Data;   at MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.ManagementHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\ManagementHandler.ashx.cs:line 103
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-28 10:27:06.149 ERROR ASP.global_asax: Application_Error:/Handlers/ManagementHandler.ashx</br>Unknown column 'tof.fruitNum' in 'field list';MySql.Data;   at MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.ManagementHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\ManagementHandler.ashx.cs:line 103
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-28 11:49:57.797 ERROR ASP.global_asax: Application_Error:/Handlers/ManagementHandler.ashx</br>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP_CONCAT(CONCAT(tof.name,tof.fruitNum * tof.count ,tof.unit,' (',CAST(tof.co' at line 12;MySql.Data;   at MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.ManagementHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\ManagementHandler.ashx.cs:line 108
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-28 11:50:22.182 ERROR ASP.global_asax: Application_Error:/Handlers/ManagementHandler.ashx</br>You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP_CONCAT(CONCAT(tof.name,tof.fruitNum * tof.count ,tof.unit,' (',CAST(tof.co' at line 12;MySql.Data;   at MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.ManagementHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\ManagementHandler.ashx.cs:line 108
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-28 14:46:57.150 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-28 17:11:55.642 ERROR ASP.global_asax: Application_Error:/Order/SquirrelOrderDetailPage.aspx</br>Exception of type 'System.Web.HttpUnhandledException' was thrown.;System.Web;   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.order_squirrelorderdetailpage_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\d0b79832\8a18bf3\App_Web_zarfpqxl.1.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-28 17:12:53.112 ERROR ASP.global_asax: Application_Error:/Order/SquirrelOrderDetailPage.aspx?order_id=51</br>Exception of type 'System.Web.HttpUnhandledException' was thrown.;System.Web;   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.order_squirrelorderdetailpage_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\d0b79832\8a18bf3\App_Web_zarfpqxl.1.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-10-28 17:13:23.853 ERROR ASP.global_asax: Application_Error:/Order/SquirrelOrderDetailPage.aspx?order_id=51</br>Exception of type 'System.Web.HttpUnhandledException' was thrown.;System.Web;   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.order_squirrelorderdetailpage_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\d0b79832\8a18bf3\App_Web_zarfpqxl.1.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

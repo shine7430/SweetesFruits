@@ -1,0 +1,4 @@
+2017-11-07 17:38:06.420 INFO AllTrustUs.SquirrelPocket.Utility.EmailHelper: 操作已超时。   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 AllTrustUs.SquirrelPocket.Utility.EmailHelper.SendMail(String subject, String body) 位置 d:\Spreadtrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\EmailHelper.cs:行号 55
+2017-11-07 17:38:06.661 INFO Check AuthorizationCheck Begin: =========2017/11/07 17:38:06
+2017-11-07 17:38:06.664 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxab45dbde2ce2c914&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx%3fActionPage%3d%2fOrder%2fCartPage.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect

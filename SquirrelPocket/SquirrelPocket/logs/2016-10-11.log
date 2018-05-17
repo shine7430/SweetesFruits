@@ -1,0 +1,34 @@
+2016-10-11 11:27:48.708 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-11 13:49:01.513 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-11 14:14:13.304 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-11 14:26:53.270 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxd278dc9e4031a12d]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1230942402]]></mch_id><nonce_str><![CDATA[97395f54114541b28bfc9043e0dc2156]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[oERB-uKnfV2TFNFoPa1JtkwPzogY]]></openid><out_trade_no><![CDATA[123094240220161009170033369]]></out_trade_no><sign><![CDATA[9E849EA8CBB55802C5131C717349C405]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20161011143653]]></time_expire><time_start><![CDATA[20161011142653]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2016-10-11 14:26:54.081 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxd278dc9e4031a12d]]></appid>
+<mch_id><![CDATA[1230942402]]></mch_id>
+<nonce_str><![CDATA[CA8UEmWFn70oJehW]]></nonce_str>
+<sign><![CDATA[5D0E671758E31515B9A3332E85EC5123]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx2016101114265890ae0217110088198681]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2016-10-11 14:26:54.087 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2016-10-11 14:26:54.121 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"9c4fa7417816473aa28ebe1ee55e0350","package":"prepay_id=wx2016101114265890ae0217110088198681","paySign":"6AEDBD36F29CBC48FE94C35190D303DD","signType":"MD5","timeStamp":"1476167214"}
+2016-10-11 14:26:54.122 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"9c4fa7417816473aa28ebe1ee55e0350","package":"prepay_id=wx2016101114265890ae0217110088198681","paySign":"6AEDBD36F29CBC48FE94C35190D303DD","signType":"MD5","timeStamp":"1476167214"}
+2016-10-11 14:26:54.151 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-11 14:37:45.037 DEBUG WxPayApi: UnfiedOrder request : <xml><appid><![CDATA[wxd278dc9e4031a12d]]></appid><attach><![CDATA[testattach]]></attach><body><![CDATA[松鼠兜兜水果]]></body><goods_tag><![CDATA[testgoods_tag]]></goods_tag><mch_id><![CDATA[1230942402]]></mch_id><nonce_str><![CDATA[4783086a034e4ae4ab95d22309206da7]]></nonce_str><notify_url><![CDATA[http://www.trustus.cn/order/WXPayResult.aspx]]></notify_url><openid><![CDATA[oERB-uKnfV2TFNFoPa1JtkwPzogY]]></openid><out_trade_no><![CDATA[123094240220161009170033369]]></out_trade_no><sign><![CDATA[7A4CD6D3D56DDB9EBEB10242AC612B8A]]></sign><spbill_create_ip><![CDATA[114.215.186.24]]></spbill_create_ip><time_expire><![CDATA[20161011144745]]></time_expire><time_start><![CDATA[20161011143745]]></time_start><total_fee>1</total_fee><trade_type><![CDATA[JSAPI]]></trade_type></xml>
+2016-10-11 14:37:45.399 DEBUG WxPayApi: UnfiedOrder response : <xml><return_code><![CDATA[SUCCESS]]></return_code>
+<return_msg><![CDATA[OK]]></return_msg>
+<appid><![CDATA[wxd278dc9e4031a12d]]></appid>
+<mch_id><![CDATA[1230942402]]></mch_id>
+<nonce_str><![CDATA[pBw4bUis2HrzUhLY]]></nonce_str>
+<sign><![CDATA[D0AAE7E91B1D11E5EAC524CDAC096532]]></sign>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<prepay_id><![CDATA[wx20161011143749444905480c0089744156]]></prepay_id>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+</xml>
+2016-10-11 14:37:45.405 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: JsApiPay::GetJsApiParam is processing...
+2016-10-11 14:37:45.420 DEBUG AllTrustUs.WXPayAPILib.JsApiPay: Get jsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"252ed863d6de407ca23fec9f8382f26f","package":"prepay_id=wx20161011143749444905480c0089744156","paySign":"01C9D660E666FCD29CC974D40BBD3CE2","signType":"MD5","timeStamp":"1476167865"}
+2016-10-11 14:37:45.421 DEBUG ASP.order_wxpay_aspx: wxJsApiParam : {"appId":"wxd278dc9e4031a12d","nonceStr":"252ed863d6de407ca23fec9f8382f26f","package":"prepay_id=wx20161011143749444905480c0089744156","paySign":"01C9D660E666FCD29CC974D40BBD3CE2","signType":"MD5","timeStamp":"1476167865"}
+2016-10-11 14:37:45.460 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-11 17:20:32.550 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect

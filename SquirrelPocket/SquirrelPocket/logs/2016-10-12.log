@@ -1,0 +1,16 @@
+2016-10-12 14:55:06.198 DEBUG ASP.authorizationcheck_aspx: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd278dc9e4031a12d&redirect_uri=http%3a%2f%2flocalhost%2fAuthorizationCheck.aspx&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect
+2016-10-12 14:55:28.251 ERROR ASP.global_asax: Application_Error:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where status<>'deleted' order by createdate desc' at line 1;MySql.Data;   at MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText, MySqlParameter[] cmdParms) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 94
+   at AllTrustUs.SquirrelPocket.Utility.MySqlHelp.ExecuteDataTable(String cmdText) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Utility\MySqlHelp.cs:line 103
+   at AllTrustUs.SquirrelPocket.Handlers.OrderHandler.ProcessRequest(HttpContext context) in d:\SoreadTrum\21.水果\Fruit\SquirrelPocket\SquirrelPocket\Handlers\OrderHandler.ashx.cs:line 105
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
